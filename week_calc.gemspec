@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'week_calc'
-  s.version     = '0.0.3'
+  s.version     = '0.0.4'
   s.date        = '2014-02-19'
   s.summary     = "A week calculator gem"
   s.description = "A week calculator gem"
@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'souranil@gmail.com, amitbsuryavanshi@gmail.com, yashasree.barve@gmail.com, twinkal.savani@gmail.com, priya.joshi@gmail.com '
   s.files       = ["lib/week_calc.rb"]
   s.homepage    =
-    'http://rubygems.org/gems/sliced_bread'
+    'http://rubygems.org/gems/week_calc'
   s.license       = 'MIT'
 end
