@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'week_calc'
-  s.version     = '0.0.4'
+  s.version     = '0.0.5'
   s.date        = '2014-02-19'
   s.summary     = "A week calculator gem"
   s.description = "A week calculator gem"

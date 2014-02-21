@@ -3,7 +3,7 @@ week_calc
 
 A simple week calculator
 
-Sliced Bread is an extension to the Date class in ruby. It helps calculate the number of weeks between weeks as well as from the present date. Implementation on Pure Ruby {Date Class}[http://www.ruby-doc.org/core-1.9.3/Date.html].
+Week Calc is an extension to the Date class in ruby. It helps calculate the number of weeks between weeks as well as from the present date. Implementation on Pure Ruby {Date Class}[http://www.ruby-doc.org/core-1.9.3/Date.html].
 
 Installation
 ==
@@ -17,17 +17,19 @@ Usage
 
   require 'week_calc'
 
-  There are mainly two helpers available for sliced_bread usage.
+  There are mainly two helpers available for week_calc usage.
 
-    Date.get_weeks(start_date, end_date)
-    Date.week_from_now(date)
+    Date.weeks_in_between(start_date, end_date)
+    Date.weeks_till_now(date)
 
 Example
 ==
 
-    Date.get_weeks('22/4/2012', '22/5/2012')
+    Date.weeks_in_between('22/4/2012', '22/5/2012')
     > 4
-    Date.get_weeks('22/4/2012', '22/4/2012')
+    Date.weeks_in_between('22/5/2012', '22/3/2012')
     > 9
+    Date.weeks_till_now('28/2/2014')
+    > 1
   Returns {Date objects}[http://www.ruby-doc.org/core-1.9.3/Date.html] for any of the helpers used.
 
