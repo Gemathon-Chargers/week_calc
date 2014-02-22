@@ -1,19 +1,26 @@
-week_calc
-=========
+#[Week_Calc](http://documentup.com/gemathon-chargers/week_calc)
+### The week calculator
 
-A simple week calculator
+[![Gem Version](https://badge.fury.io/rb/week_calc.png)](http://badge.fury.io/rb/week_calc)
+
 
 Week Calc is an extension to the Date class in ruby. It helps calculate the number of weeks between weeks as well as from the present date. Implementation on Pure Ruby {Date Class}[http://www.ruby-doc.org/core-1.9.3/Date.html].
 
-Installation
-==
+## Installation
 
-In Rails 3+, add this to your Gemfile and run the bundle command.
+Add this line to your application's Gemfile:
 
-  gem 'week_calc'
+    gem 'week_calc'
 
-Usage
-==
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install week_calc
+
+## Usage
 
   require 'week_calc'
 
@@ -22,8 +29,7 @@ Usage
     Date.weeks_in_between(start_date, end_date)
     Date.weeks_till_now(date)
 
-Example
-==
+###Example
 
     Date.weeks_in_between('22/4/2012', '22/5/2012')
     > 4
@@ -31,5 +37,12 @@ Example
     > 9
     Date.weeks_till_now('28/2/2014')
     > 1
-  Returns {Date objects}[http://www.ruby-doc.org/core-1.9.3/Date.html] for any of the helpers used.
+
+## Contributing
+
+1. Fork it ( http://github.com/<my-github-username>/week_calc/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
 
