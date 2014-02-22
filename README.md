@@ -2,9 +2,9 @@
 ### The week calculator
 
 [![Gem Version](https://badge.fury.io/rb/week_calc.png)](http://badge.fury.io/rb/week_calc)
+[![Build Status](https://travis-ci.org/Gemathon-Chargers/week_calc.png?branch=master)](https://travis-ci.org/Gemathon-Chargers/week_calc)
 
-
-Week Calc is an extension to the Date class in ruby. It helps calculate the number of weeks between weeks as well as from the present date. Implementation on Pure Ruby {Date Class}[http://www.ruby-doc.org/core-1.9.3/Date.html].
+Week Calc is an extension to the Date class in ruby. It helps calculate the number of weeks between weeks as well as from the present date.
 
 ## Installation
 
